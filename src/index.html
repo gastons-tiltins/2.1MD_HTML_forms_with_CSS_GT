@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="icon" href="/favicon.png" type="image/x-icon" />
+        <link rel="stylesheet" href="/styles.css" />
+        <title>Form HTML, CSS practice</title>
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="form-frame">
+                    <form action="#" method="GET">
+                        <label class="label1" for="fname">Username</label>
+                        <input
+                            type="text"
+                            id="fname"
+                            name="fname"
+                            placeholder="Enter username.."
+                            autocomplete="off"
+                            required
+                            minlength="3"
+                        />
+                        <br />
+                        <label class="label1" for="pwd">Password</label>
+                        <input
+                            type="password"
+                            id="pwd"
+                            name="pwd"
+                            autocomplete="off"
+                            required
+                            minlength="6"
+                        />
+                        <br />
+                        <div class="switch-box">
+                            <label class="switch">
+                                <input type="checkbox" checked />
+                                <span class="slider round"></span>
+                            </label>
+                            <span class="switch--text">Subscribe to News</span>
+                        </div>
+                        <br />
+                        <input class="submit1" type="submit" value="Sign In" />
+                    </form>
+                    <br />
+                    <a class="link--text-styling" href="#"
+                        >Forgot your password?</a
+                    >
+                    <br />
+                    <hr class="new1" />
+                    <br />
+                    <p class="p--font">or continue with</p>
+                    <br />
+                    <div class="two-boxes">
+                        <button class="item">
+                            <img src="assets/images/google.svg" alt="Google" />
+                        </button>
+                        <button class="item">
+                            <img
+                                src="assets/images/facebook.svg"
+                                alt="Facebook"
+                            />
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br />
+        <section>
+            <div class="container">
+                <div class="form-frame">
+                    <form action="#" method="GET">
+                        <label class="label1" for="cars">Choose a car:</label>
+                        <select class="car-select label1" name="cars" id="cars">
+                            <option value="" selected disabled></option>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                        <br />
+                        <input
+                            class="submit1"
+                            type="submit"
+                            value="Submit car"
+                        />
+                    </form>
+                </div>
+            </div>
+        </section>
+        <br />
+        <section>
+            <div class="container">
+                <div class="form-frame">
+                    <form action="#" method="GET">
+                        <label class="label1" for="email"
+                            >Enter your e-mail:</label
+                        >
+                        <input
+                            class="email-input"
+                            type="email"
+                            id="email"
+                            name="email"
+                            autocomplete="off"
+                            required
+                            minlength="5"
+                        />
+                        <br />
+                        <input
+                            class="submit1"
+                            type="submit"
+                            value="Submit e-mail"
+                        />
+                    </form>
+                </div>
+            </div>
+        </section>
+        <br />
+        <script src="/scripts.js"></script>
+    </body>
+</html>
