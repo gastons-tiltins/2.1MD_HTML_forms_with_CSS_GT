@@ -328,3 +328,45 @@ input:checked + .slider:before {
     background: #fafafa;
     border-radius: 5px;
 }
+
+.contact-us {
+    display: grid;
+    padding: 32px;
+    gap: 32px;
+    width: 665px;
+    height: 644px;
+    background: #ffffff;
+    box-shadow: 40px 40px 60px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-us__title {
+    background-color: green;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #130f1c;
+}
+
+.contact-us__input {
+    display: flex;
+    background: cyan;
+}
+
+.contact-us__checkbox {
+    background-color: blue;
+}
+
+.contact-us__text-area {
+    background-color: yellow;
+}
+
+.contact-us__submit {
+    background-color: cyan;
+}
